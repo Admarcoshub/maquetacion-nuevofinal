@@ -475,8 +475,7 @@ h6 {
 
 .contact-in {
   font-weight: 600;
-  line-height: 2;
-  color: #5a5a8c; }
+  line-height: 2; }
 
 .u-contact {
   border: none;
@@ -491,6 +490,7 @@ textarea {
   resize: none; }
 
 iframe {
+  margin-top: 40px;
   width: 100%;
   height: 400px; }
 

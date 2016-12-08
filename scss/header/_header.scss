@@ -440,8 +440,7 @@ h6 {
 
 .contact-in {
   font-weight:600;
-  line-height:2;
-  color:$fb;
+  line-height:2;  
 }
 
 .u-contact {
@@ -459,6 +458,7 @@ textarea {
 }
 
 iframe {
+  margin-top:40px;
   width:100%;
   height:400px;
 }
