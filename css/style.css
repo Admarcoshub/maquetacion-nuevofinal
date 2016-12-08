@@ -137,6 +137,21 @@ body {
   color: #ffffff;
   margin-bottom: 0; }
 
+.gray-header {
+  background: #f7f7f7; }
+
+.gray-navbar {
+  background: #f7f7f7; }
+  .gray-navbar h1 {
+    color: #5a5a8c; }
+  .gray-navbar .navbar-collapse .nav li a {
+    color: #777; }
+  .gray-navbar .box-shadow-menu {
+    border: 2px solid #777; }
+  .gray-navbar .box-shadow-menu:before {
+    background: #777;
+    box-shadow: 0 0.25em 0 0 #777; }
+
 .collapse ul li a {
   padding-top: 40px;
   font-size: 1em; }
@@ -369,7 +384,7 @@ h6 {
   background: #f7f7f7;
   padding: 50px 0; }
 
-h2 {
+.banner h2 {
   color: #5a5a8c; }
 
 .banner p {
