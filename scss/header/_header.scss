@@ -2,6 +2,7 @@ $fb: #5a5a8c;
 $tw: #ffffff;
 $gw: #b3b3bc;
 $w: 100%;
+$gris: #f7f7f7;
 
 
 @mixin height($height) {
@@ -25,6 +26,29 @@ body {
 	background: $fb;
 	color: $tw;
 	margin-bottom: 0;
+}
+
+.gray-header {
+  background: $gris;
+}
+
+.gray-navbar {
+  background: $gris;
+  & h1 {
+    color: $fb;
+  }
+  .navbar-collapse .nav li a {
+    color: #777;
+  }
+  
+  .box-shadow-menu {
+  	border: 2px solid #777;
+ }
+
+  .box-shadow-menu:before {
+      background: #777;
+    box-shadow: 0 0.25em 0 0 #777;
+  }
 }
 
 .collapse ul li a {
