@@ -81,14 +81,33 @@ body {
 @media (max-width: 768px) {
   .slider {
     height:600px; } }
+    
 
 .slider {
   padding-top: 60px;
   margin-top:-20px;
-  height:500px;
+  height:600px;
   background: $fb;
   color: $tw;
+  overflow:hidden;
 }
+
+.blanco {
+  background:#fff;
+  width:100%;
+  height:120px;
+  margin-top:-70px;
+}
+
+.imgpri{
+   position: relative;
+}
+
+.imgpri img {
+  position:absolute;
+  clip:rect(0px 520px 530px 0px);
+}
+
 
 .altas {
     @include font-size(3.5em);
@@ -302,5 +321,143 @@ h6 {
   height:90%;
 }
 
+.satisfactory {
+  background:#f7f7f7;
+  margin-top:40px;
+  height:500px;
+  position:relative;
+}
 
 
+.silueta {
+  position:absolute;
+  width:310px;
+  height:400px;
+  margin-left:-250px;
+  bottom:0px;
+}
+
+.satis {
+   padding-top: 60px;
+}
+
+.boton-lets {
+    margin-top: 30px;
+}
+
+.chat {
+  display:flex;
+}
+
+.comment {
+    background: #fff;
+    width:60%;
+    margin: 10px 0px;
+    padding:5px;
+    font-weight:500;
+    -webkit-box-shadow: 2px 3px 3px 1px rgba(143,140,143,0.48);
+    -moz-box-shadow: 2px 3px 3px 1px rgba(143,140,143,0.48);
+    box-shadow: 2px 3px 1px 1px rgba(143,140,143,0.48);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin-top:20px;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 10px solid transparent;
+}
+
+.circle {
+  margin-right:10px;
+  margin-top:10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:#d4d4d4;
+ }
+
+
+.boton {
+  background:$fb;
+  color: $tw;
+  padding:10px 20px;
+  font-size:0.8em;
+ }
+
+.customer,
+.comment {
+  line-height: 2;
+}
+
+.support {
+  padding-left:50px;
+}
+
+.clientes {
+  background: $fb;
+  width:100%;
+  height:700px;
+}
+
+.info-c {
+  padding-top:80px;
+  padding-bottom:60px;
+}
+
+.clientes-info {
+  color: $tw;
+  line-height: 2;
+  letter-spacing: 0.05em;
+}
+
+.logos-1 {
+  border-bottom: 1.5px solid #565688;
+}
+
+.logos-3 {
+  border-left:1px solid #565688;
+  border-right:1px solid #565688;
+}
+
+#touch {
+  margin-top: 50px;
+}
+
+#touch p {
+  line-height: 2;
+}
+
+#touch p span {
+  font-weight:600;
+}
+
+.touch-b {
+  padding-top:100px;
+}
+
+.contact-in {
+  font-weight:600;
+  line-height:2;
+  color:$fb;
+}
+
+.u-contact {
+  border:none;
+  border-bottom: 1px solid $fb;
+  width:90%;
+}
+
+textarea {
+  width:90%;
+  height: 50px;
+  border:none;
+  border-bottom: 1px solid $fb;
+  resize:none;
+}
+
+iframe {
+  width:100%;
+  height:400px;
+}
