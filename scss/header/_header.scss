@@ -107,6 +107,33 @@ body {
   .slider {
     height:600px; } }
     
+@media (max-width: 768px) {
+  .silueta {
+    display:none; } }
+    
+
+@media (max-width: 768px) {
+.slider {
+    height:900px !important; }
+}
+
+@media (max-width: 768px) {
+.litle {
+    margin-top:180px !important;
+    color: #fff; }
+}
+
+@media (max-width: 768px) {
+.satisfactory {
+    height:1100px !important;
+   }
+}
+
+@media (max-width: 768px) {
+.clientes {
+    height:1500px !important;
+   }
+}
 
 .slider {
   padding-top: 60px;
@@ -295,7 +322,7 @@ h6 {
 
 .pricing-fondo {
   background: $tw;
-  width: 25%;
+ 
   height:350px;
   padding-top:10px;
   -webkit-box-shadow: 2px 3px 3px 0px rgba(143,140,143,0.48);
