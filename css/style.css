@@ -1075,5 +1075,50 @@ aside .btn-default:hover {
 
   .section_contact_help .style_title_h2 {
     padding-bottom: 0px; } }
+.section_services_accurate_realiable {
+  background: #5a5a8c; }
+  .section_services_accurate_realiable .style_title_city {
+    padding-top: 111px; }
+  .section_services_accurate_realiable .style_title_h2 {
+    margin: 0px; }
+  .section_services_accurate_realiable img {
+    padding-top: 90px; }
+  .section_services_accurate_realiable .style_title_city {
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    color: #b3b3bc;
+    margin-bottom: 8px; }
+  .section_services_accurate_realiable .style_title_h2 {
+    color: #fff;
+    padding-left: 22.5px; }
+
+.section_range_of_work {
+  padding-bottom: 65px; }
+  .section_range_of_work .style_title_city {
+    padding-top: 111px;
+    margin-bottom: 0px;
+    letter-spacing: 1.1px;
+    font-size: 13.5px;
+    color: #b3b3bc; }
+  .section_range_of_work .style_title_h2 {
+    color: #5a5a8c;
+    margin-top: 8px; }
+  .section_range_of_work .structure_service {
+    padding-top: 41px; }
+    .section_range_of_work .structure_service h3 {
+      font-size: 21px;
+      font-family: 'Raleway', sans-serif;
+      color: #5a5a8c;
+      font-weight: 500;
+      letter-spacing: 1px; }
+    .section_range_of_work .structure_service p {
+      padding-top: 10px;
+      font-size: 16px;
+      font-family: 'Raleway', sans-serif;
+      color: #b3b3bc;
+      letter-spacing: 1px;
+      line-height: 1.6; }
+    .section_range_of_work .structure_service div {
+      height: 175px; }
 
 /*# sourceMappingURL=style.css.map */
