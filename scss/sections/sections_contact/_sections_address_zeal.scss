@@ -35,13 +35,29 @@
 }
 
 @media screen and (max-width: 991px){
+    
+    .section_contact_help .style_title_h2{
+        font-size:37px;
+    }
+    
     .section_address_zeal .container{
         padding-left:25px;
         padding-right:25px;
     }
+    
+    .section_contact_help .container{
+        padding-left:25px;
+        padding-right:25px;
+    }
+    
+    .section_contact_help button{
+        margin-bottom:60px;
+    }
 }
 
 @media screen and (max-width: 767px){
+    
+    
     
     .section_address_zeal{
         padding-top:95px;
@@ -55,5 +71,7 @@
         text-align:center;
     }
     
-    
+    .section_contact_help .style_title_h2{
+        padding-bottom:0px;
+    }
 }
