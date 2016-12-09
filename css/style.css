@@ -810,6 +810,59 @@ aside .btn-default:hover {
 
   #posts {
     width: 100%; } }
+.rwebsites {
+  padding-top: 80px;
+  text-align: center; }
+  .rwebsites span {
+    text-transform: uppercase;
+    color: #aaa; }
+  .rwebsites h3 {
+    color: #5a5a8c;
+    margin: 5px 0 60px 0;
+    font-size: 28px; }
+
+.rwebsites-img {
+  width: 100%; }
+  .rwebsites-img img {
+    width: 100%; }
+
+.unique-design {
+  background: #f7f7f7;
+  padding: 80px 0; }
+  .unique-design span {
+    text-transform: uppercase;
+    color: #aaa; }
+  .unique-design h3 {
+    color: #5a5a8c;
+    margin: 5px 0 10px 0;
+    font-size: 28px; }
+
+.ud-img {
+  width: 100%; }
+
+.ud-img img {
+  width: 100%; }
+
+.ud-info {
+  margin-top: 100px; }
+
+.ud-info p {
+  line-height: 24px; }
+
+.ud-info .btn-default {
+  background: #5a5a8c;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-size: 14px;
+  width: 150px;
+  padding: 10px 0;
+  text-transform: uppercase; }
+
+.ud-info .btn-default:hover {
+  background: transparent;
+  border: 1px solid #5a5a8c;
+  color: #5a5a8c; }
+
 /***     JOE     ***/
 .header_contact {
   height: 425px;
