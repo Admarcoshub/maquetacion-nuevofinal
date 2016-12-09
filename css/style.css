@@ -1092,6 +1092,107 @@ aside .btn-default:hover {
     color: #fff;
     padding-left: 22.5px; }
 
+.services-1_work {
+  padding: 80px 0 130px 0; }
+  .services-1_work .container_services-1_work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .services-1_work .container_services-1_work .item_serivices-1_work {
+      width: 30%; }
+      .services-1_work .container_services-1_work .item_serivices-1_work:last-child {
+        width: 65%; }
+      .services-1_work .container_services-1_work .item_serivices-1_work h2 {
+        font-size: 42px;
+        color: #5a5a8c;
+        font-weight: 400;
+        margin: 0; }
+      .services-1_work .container_services-1_work .item_serivices-1_work small {
+        font-size: 14px;
+        color: #b3b3bc; }
+      .services-1_work .container_services-1_work .item_serivices-1_work h3 {
+        font-size: 21px;
+        font-weight: 400;
+        color: #82828c;
+        margin-top: 40px; }
+      .services-1_work .container_services-1_work .item_serivices-1_work p {
+        font-size: 16px;
+        color: #82828c;
+        margin-bottom: 40px; }
+      .services-1_work .container_services-1_work .item_serivices-1_work a {
+        font-size: 12px;
+        color: #5a5a8c;
+        text-decoration: none;
+        font-weight: 700; }
+        .services-1_work .container_services-1_work .item_serivices-1_work a span {
+          font-size: 20px;
+          color: #82828c; }
+
+.services_coment {
+  background: #f7f7f7;
+  padding: 30px 0 0 0; }
+  .services_coment .container_services_coment {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .services_coment .container_services_coment .item_services_coment {
+      width: 60%; }
+      .services_coment .container_services_coment .item_services_coment:last-child {
+        width: 30%;
+        margin-top: 50px; }
+      .services_coment .container_services_coment .item_services_coment:first-child {
+        position: relative;
+        top: -80px; }
+      .services_coment .container_services_coment .item_services_coment img {
+        display: block;
+        width: 100%;
+        -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75); }
+      .services_coment .container_services_coment .item_services_coment a {
+        color: #5a5a8c;
+        margin-right: 20px;
+        font-size: 12px; }
+      .services_coment .container_services_coment .item_services_coment p {
+        color: #82828c;
+        font-size: 16px; }
+
+.features {
+  padding: 60px 0; }
+  .features h2 {
+    font-size: 42px;
+    color: #5a5a8c;
+    font-weight: 400;
+    margin: 0 0 50px 0; }
+  .features small {
+    font-size: 14px;
+    color: #b3b3bc; }
+
+.container_features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .container_features .item_fatures {
+    width: 32%;
+    margin-bottom: 40px; }
+    .container_features .item_fatures img {
+      display: block;
+      width: 100%; }
+    .container_features .item_fatures h5 {
+      font-size: 21px;
+      font-weight: 500;
+      margin: 10px 0 3px 0;
+      color: #5a5a8c; }
+    .container_features .item_fatures span {
+      font-size: 16px;
+      color: #82828c; }
+    .container_features .item_fatures:nth-child(4) {
+      margin-bottom: 0; }
+    .container_features .item_fatures:nth-child(5) {
+      margin-bottom: 0; }
+    .container_features .item_fatures:nth-child(6) {
+      margin-bottom: 0; }
+
 .section_range_of_work {
   padding-bottom: 65px; }
   .section_range_of_work .style_title_city {
@@ -1120,5 +1221,13 @@ aside .btn-default:hover {
       line-height: 1.6; }
     .section_range_of_work .structure_service div {
       height: 175px; }
+  .section_range_of_work .servicios_zeal {
+    padding-top: 112px;
+    color: #d4d4d9;
+    font-size: 13px;
+    margin: 0px; }
+  .section_range_of_work .servicios_zeal_h2 {
+    padding-top: 10px;
+    color: #5a5a8c; }
 
 /*# sourceMappingURL=style.css.map */
