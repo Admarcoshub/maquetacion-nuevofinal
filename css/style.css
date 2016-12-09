@@ -961,9 +961,12 @@ aside .btn-default:hover {
     padding: 0px; }
   .section_contact_help .style_title_city {
     color: #b3b3bc; }
+  .section_contact_help .style_title_zeal {
+    color: #b8b8c0; }
   .section_contact_help .style_title_h2 {
     padding-bottom: 666px;
-    margin: 0px; }
+    margin: 0px;
+    color: #5a5a8c; }
   .section_contact_help .style_paragraph_help {
     padding-top: 54px;
     margin: 0px; }
