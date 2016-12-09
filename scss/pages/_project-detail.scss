@@ -1,13 +1,9 @@
-.head2 {
-    
-}
-
 .project-detail {
     margin: 80px 0 40px 0;
 }
 
 .details {
-    width: 650px;
+    max-width: 650px;
     margin: 0 auto;
 }
 
@@ -21,4 +17,83 @@ h4 {
 
 .details p {
     margin-bottom: 40px;
+}
+
+.pdetail-video {
+    background: $fb;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.pdetail-video iframe {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.pd-imgs {
+    padding: 80px 0 50px 0;
+}
+
+.limg {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.limg img {
+    width: 100%;
+}
+
+.mimg {
+    width: 100%;
+}
+
+.mimg img {
+    width: 100%;
+}
+
+.mimg1 {
+    margin-bottom: 30px;
+}
+
+.staysocial {
+    padding: 80px 0;
+    background: $gris;
+    text-align: center;
+    
+    span {
+        text-transform: uppercase;
+        color: #aaa;
+    }
+    
+    h3 {
+        color: $fb;
+        margin: 5px;
+        font-size: 28px;
+    }
+}
+
+.staysocial-links {
+    margin-top: 50px;
+    
+    ul {
+        padding: 0;
+        
+        li {
+            list-style: none;
+            display: inline-block;
+            border: 1px solid #777;
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            margin: 0 10px;
+            cursor: pointer;
+            
+            a {
+                color: #777;
+                & :hover {
+                    color: $fb;
+                }
+            }
+        }
+    }
 }
