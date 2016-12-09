@@ -400,7 +400,7 @@ h6 {
       background: #ffffff; }
 
 .features {
-  margin-top: 50px; }
+  margin-top: 40px; }
 
 .feat-detail {
   color: #5a5a8c; }
@@ -462,6 +462,12 @@ h6 {
   color: #ffffff;
   padding: 10px 20px;
   font-size: 0.8em; }
+
+.boton:hover {
+  background: #ffffff;
+  Border: 1px solid #5a5a8c;
+  color: #5a5a8c;
+  text-decoration: none; }
 
 .customer,
 .comment {
