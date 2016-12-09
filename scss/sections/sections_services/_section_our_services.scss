@@ -1,0 +1,131 @@
+$morado: #5a5a8c;
+$morado-2: #82828c;
+
+.services-1_work{
+	padding: 80px 0 130px 0;
+	.container_services-1_work{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.item_serivices-1_work{
+			width: 30%;
+			&:last-child{
+				width: 65%;
+			}
+			h2{
+				font-size: 42px;
+				color: $morado;
+				font-weight: 400;
+				margin: 0;
+			}
+			small{
+				font-size: 14px;
+				color: #b3b3bc;
+			}
+			h3{
+				font-size: 21px;
+				font-weight: 400;
+				color: #82828c;
+				margin-top: 40px;
+			}
+			p{
+				font-size: 16px;
+				color: #82828c;
+				margin-bottom: 40px;
+			}
+			a{
+				font-size: 12px;
+				color: $morado;
+				text-decoration: none;
+				font-weight: 700;
+				span{
+					font-size: 20px;
+					color: $morado-2;
+				}
+			}
+		}
+	}
+}
+
+.services_coment{
+	background: #f7f7f7;
+	padding: 30px 0 0 0;
+	.container_services_coment{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.item_services_coment{
+			width: 60%;
+			&:last-child{
+				width: 30%;
+				margin-top: 50px;
+			}
+			&:first-child{
+				position: relative;
+				top: -80px;
+			}
+			img{
+				display: block;
+				width: 100%;
+				-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+			}
+			a{
+				color: $morado;
+				margin-right: 20px;
+				font-size: 12px;
+			}
+			p{
+				color: #82828c;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+.features{
+	padding: 60px 0;
+	h2{
+		font-size: 42px;
+		color: $morado;
+		font-weight: 400;
+		margin: 0 0 50px 0;
+		}
+		small{
+			font-size: 14px;
+			color: #b3b3bc;
+		}
+	}
+	.container_features{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.item_fatures{
+			width: 32%;
+			margin-bottom: 40px;
+			img{
+				display: block;
+				width: 100%;
+			}
+			h5{
+				font-size: 21px;
+				font-weight: 500;
+				margin: 10px 0 3px 0;
+				color: $morado;
+			}
+			span{
+				font-size: 16px;
+				color: #82828c;
+			}
+			&:nth-child(4){
+				margin-bottom: 0;
+			}
+			&:nth-child(5){
+				margin-bottom: 0;
+			}
+			&:nth-child(6){
+				margin-bottom: 0;
+			}
+		}
+	}
