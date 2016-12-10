@@ -1,0 +1,179 @@
+$fp: #f7f7f7;
+$fb: #5a5a8c;
+
+@media (max-width: 768px) {
+.unique {
+    height:550px !important;
+   }
+}
+
+@media (max-width: 768px) {
+.pic-pic {
+    display: none !important;
+   }
+}
+
+
+.header-a {
+    background: $fp !important;
+    color: $fb;
+}
+
+.navbar-a {
+    background: $fp !important;
+    color: $fb !important;
+}
+
+.navbar-collapse-a ul li a  {
+    color: $fb !important;
+}
+
+.abouty{
+    background:$fp;
+    width:100%;
+    height:350px;
+    padding-top:100px;
+}
+
+.estructura {
+    text-align:center;
+    padding-top:100px;
+    width:60%;
+    margin: 0 auto;
+}
+
+.altas-a {
+    font-size: 2em;
+}
+
+.logogos {
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+.num {
+    font-size:1.5em;
+}
+
+.alf {
+    color: $fb;
+    font-size:0.8em;
+    font-weight:700;
+}
+
+.unique {
+    width:100%;
+    height:400px;
+    background: $fp;
+    padding-top:60px;
+}
+
+.testi {
+    background: $fp;
+    width: 60%;
+    margin:0 auto;
+}
+
+.testi-words {
+    text-align: center;
+    line-height:2;
+    font-size: 1.2em;
+    font-weight:500;
+    color: $fb;
+}
+
+.elmer {
+    display:flex;
+    width:300px;
+    margin:0 auto;
+    padding-top: 20px;
+}
+
+.indicadores2 {
+    width:300px;
+    height:20px;
+    margin:0 auto;
+    display:flex;
+}
+
+.carrer {
+    font-size: 0.8em;
+}
+
+.cv {
+    margin-left:5px;
+}
+
+.bolitas {
+  border: 1px solid $fb ;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  margin: 0 auto;
+  margin-top:30px;
+}
+
+.bolitas:active {
+  background: $fb;
+}
+
+.pic-pic {
+    width:100%;
+    margin: 0 auto;
+    margin-top:40px;
+    height:500px;
+}
+
+.righty {
+    position: relative;
+}
+
+.righty img {
+    position:absolute;
+    right:0;
+}
+
+.stay {
+    background: $fp;
+    width: 100%;
+    height: 300px;
+    text-align:center;
+    padding-top:40px;
+}
+
+.plomo {
+    color:$fb
+}
+
+ul li {
+    list-style:none;
+    display: inline-block;
+}
+
+ul li i {
+    color:$fb;
+    padding: 0px 10px 0 10px;
+    font-size:100px;
+}
+
+.all-unique {
+    width:100%;
+    display:inline-block;
+}
+
+.celu {
+    width:50%;
+    float:left;
+}
+
+.celu img {
+    width:100%;
+}
+
+.data {
+    width:50%;
+    float:left;
+}
+
+
+
